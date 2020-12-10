@@ -1,0 +1,10 @@
+#ball-1st{
+    animation-name: ball-first;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes ball-1st{
+    from{margin-top: 0px;}
+    to {margin-top: 40px;}
+}
