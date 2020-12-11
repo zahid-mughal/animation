@@ -19,7 +19,11 @@
         .rain{
             background-image: url(rain.png);
             height: 100vh;
-            animation: raindrop .3s 1s infinite linear;
+            animation: raindrop 1s 0s infinite linear;
+        }
+        @keyframes raindrop {
+            from{background-position: 0% 0%;}
+            to {background-position: 0% 100%;}
         }
     </style>
 </head>
