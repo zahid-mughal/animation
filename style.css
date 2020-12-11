@@ -8,6 +8,40 @@
     0%{margin-top: 0;}
     50%{margin-top: -300px;}
     100%{margin-top: 0;}
-
+}
+.ball-2nd{
+    animation-name: anim2;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
+@keyframes anim2{
+    0%{margin-top: 0;}
+    50%{margin-top: -300px;}
+    100%{margin-top: 0;}
+}
+.ball-3rd{
+    animation-name: anim3;
+    animation-delay: 3s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim3{
+    0%{margin-top: 0;}
+    50%{margin-top: -300px;}
+    100%{margin-top: 0;}
+}
+.ball-4th{
+    animation-name: anim4;
+    animation-delay: 4s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim4{
+    0%{margin-top: 0;}
+    50%{margin-top: -300px;}
+    100%{margin-top: 0;}
+}
